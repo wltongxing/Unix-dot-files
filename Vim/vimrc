@@ -63,3 +63,6 @@ au FileType tex,bib let b:delimitMate_smart_matchpairs = '^\%(\w\|\!\|[£]\|[^[:
 
 " Expand <CR>
 let delimitMate_expand_cr = 1
+
+"neocomplete.vim
+let g:neocomplete#enable_at_startup = 1
